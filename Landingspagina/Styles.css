@@ -103,24 +103,11 @@ nav {
     padding-bottom: 50px;
 }
 
-button {
-    text-align: center;
-    background-color: #ED4385;
-    border-radius: 30px;
-    width: 200px;
-    padding: 18px;
-    z-index: 1;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    text-transform: uppercase;
-}
-
-
 .header-im {
     position: absolute;
     width: 50px;
     left: calc(50% - 25px);
     bottom: 0;
-
 }
 
 h2 {
@@ -146,7 +133,7 @@ h2 {
     padding-bottom: 40px;
 }
 
-/* Third section */
+/* article section */
 
 .d-article {
     display: flex;
@@ -183,7 +170,7 @@ h2 {
     padding-left: 20px;
 }
 
-/*fourth section reverse*/
+/* article reverse */
 
 .project-article-reverse {
     display: flex;
@@ -228,6 +215,48 @@ h2 {
     padding-left: 20px;
 }
 
+/* tile section */
+
+.project-tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* form section */
+
+.form-section {
+    background-color: #5722CD;
+    background: linear-gradient(90deg, rgba(87, 34, 205, 1) 0%, rgba(104, 58, 208, 1) 35%, rgba(135, 99, 217, 1) 100%);
+}
+
+#message {
+    font-family: 'Roboto', "Calibri Light", sans-serif;
+    border-radius: 5px;
+    font-size: medium;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.send {
+    margin: 20px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    font-size: small;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
 /* --------------- 3.1 Reusables ----------------------- */
 
 .inner-container {
@@ -239,6 +268,23 @@ h2 {
     flex-basis: 1200px;
 }
 
+.button {
+    text-align: center;
+    color: white;
+    background-color: #ED4385;
+    border-radius: 30px;
+    width: 200px;
+    padding: 18px;
+    z-index: 1;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-transform: uppercase;
+    text-decoration: none;;
+}
+
+button:hover {
+    background-color: #de9292;
+}
+
 .content-restrictor {
     max-width: 600px;
 }
@@ -247,12 +293,14 @@ h2 {
     background-color: #F3F6F9;
 }
 
-.im-article{
+/* article section */
+
+.im-article {
     width: 100%;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.image-wrapper{
+.image-wrapper {
     flex-grow: 0;
     flex-shrink: 10;
 }
@@ -265,11 +313,7 @@ h2 {
     align-content: center;
 }
 
-.project-tile {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+/*tilesection*/
 
 .tile {
     display: flex;
@@ -278,18 +322,18 @@ h2 {
     text-align: left;
     border-style: ridge;
     border-color: #5722CD;
+    padding-bottom: 15px;
 }
 
 .t-restrictor {
     width: 350px;
-    hight: 200px;
+    hight: 300px;
 }
 
 .im-tile {
     scale: 100%;
     padding-right: 200px;
     margin: 20px;
-   ;
 }
 
 .tile-header {
@@ -301,6 +345,23 @@ h2 {
     color: #7A7A7A;
     margin: 20px;
 }
+
+/* form section */
+
+input {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.form-text {
+    text-align: left;
+    font-size: medium;
+    padding-top: 30px;
+}
+
+
 
 
 /* --------------- 3.2 Other --------------------------- */
@@ -329,3 +390,4 @@ h2 {
     }
 }
 
+´
