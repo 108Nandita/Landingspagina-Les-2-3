@@ -220,9 +220,8 @@ h2 {
 .project-tile {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    justify-content: space-around;
+    padding: 30px;
     gap: 30px;
     flex-wrap: wrap;
 }
